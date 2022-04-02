@@ -1,0 +1,134 @@
+<!Doctype html>
+
+<html lang="en">
+
+    <head>
+        <meta charset ="UTF-8">
+        <meta http-equiv="X-UA-Compatible" Content="IE=OperaGX">
+        <meta name="Viewport"
+        content="width=device-width, initial-scale=1.0">
+        <title>Chef Overview - SpaceCake</title>
+    </head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: rgba(14, 81, 224, 0.678);
+            text-align: justify;
+        }
+        header {
+            background-color: rgba(2, 16, 46, 0.911);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+        footer{
+            background-color: rgba(3, 33, 97, 0.61);
+            padding: 50px;
+            text-align: center;
+            font-size: medium;
+            color: rgba(255, 255, 255, 0.678);
+        } 
+    </style>
+    <body>
+        <header><h1>Bienvenido estimado Pastelerx, ¡Que gusto tenerte de vuelta!</h1></header>
+        <img src="C:\Users\andyd\OneDrive\Escritorio\LAUNCHX\PRÁCTICAS UXUI - FRONTEND\Practica_Pastelería\SpaceCake.png" alt="Logo de Space Cake" width="200" height="200""
+        
+        <br>
+        <br>
+        <p>De acuerdo con la data, estos son los sabores de pastel disponibles:</p>
+        <table>
+            <tr>
+                <th>Nombre del pastel</th>
+                <th>Descripción del sabor del pastel</th>
+                <th>En inventario:</th>
+            </tr>
+            <tr>
+                <td>Pastel Venuciano</td>
+                <td>Sabor limón</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Pastel Terrestre</td>
+                <td>Sabor Chocolate</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Pastel Marciano</td>
+                <td>Sabor Frutos Rojos</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Pastel Júpiter</td>
+                <td>Sabor Nuez</td>
+                <td>4</td>
+            </tr>
+        </table>
+        <br>
+        <p>De acuerdo con la data recolectada, esta es la cantidad de adornos disponibles:</p>
+        <table>
+            <tr>
+                <th> Foto de adorno</th>
+                <th>Descripción</th>
+                <th>En inventario</th>
+            </tr>
+            <tr>
+                <td> <img src="C:\Users\andyd\OneDrive\Escritorio\LAUNCHX\PRÁCTICAS UXUI - FRONTEND\Practica_Pastelería\Viaje Sencillo.jpg" alt="Cohete espacial y astronautas" width="150" height="150"> </td>
+                <td> <p>Conjunto de adornos de temática espacial, sin vela hechos con foami</p> </td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td> <img src="C:\Users\andyd\OneDrive\Escritorio\LAUNCHX\PRÁCTICAS UXUI - FRONTEND\Practica_Pastelería\Mongus.jpg" alt="Personajes del videojuego Among Us" width="150" height="150"> </td>
+                <td> <p>Conjunto de adornos de temática del videojuego Among Us, figuras hechas de pan</p></td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td> <img src="C:\Users\andyd\OneDrive\Escritorio\LAUNCHX\PRÁCTICAS UXUI - FRONTEND\Practica_Pastelería\circus.jpg" alt="Animales de circo" width="150" height="150"> </td>
+                <td> <p>Conjunto de adornos de temática de animales de circo, figuras hechas de foami</p></td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td> <img src="C:\Users\andyd\OneDrive\Escritorio\LAUNCHX\PRÁCTICAS UXUI - FRONTEND\Practica_Pastelería\numero sencillo.jpg" alt="Número de dos cifras sencillo" widht="150" height="150"></td>
+                <td> <p>Adorno de número sencillo hecho con foami</p></td>
+                <td>7</td>
+            </tr>
+        </table>
+
+        <h2>¡Bienvenidx a la sección de los pedidos!</h2>
+        <p>Aqui encontrarás el total de pedidos y un formulario con el pedido de mayor prioridad</p>
+        <br>
+        <label for="Pedidos">Total de Pedidos</label><br>
+        <input type="number" id="Pedidos" name="Pedidos" Value="5"></input>
+        <br><br>
+        <label for="NPedidos">Número de pedido</label><br>
+        <input type="number" id="NPedidos" name="NPedido" Value="3"></input>
+        <br><br>
+        <label for="Nombre">Nombre del cliente:</label><br>
+        <input type="text" id="Nombre" value="Juan Rodrigo Martínez Placencia">
+        <br><br>
+        <label for="Dirección">Dirección del cliente:</label> <br>
+        <input type="text" id="Dirección" value="3a Privada de San gargarito arrinconado" maxlength="30">
+        <br><br>
+        <label for="Teléfono">Número de teléfono</label><br>
+        <input type="tel" id="Phone" value="55-5555-5555" minlength="10" maxlength="13">
+        <br><br>
+        <label for="Correo">Dirección de correo</label><br>
+        <input type="email" id="Correo" value="romarpla@dominiopublico.com">
+        <br><br>
+        
+        <footer>
+            <p>Dirección: Quinta avenida, San Buenaventura, Toluca Edomex. C.P. 50110</p>
+            <p>Teléfonos de atención:<br><br>
+                +52 77-7777-7777<br>
+                +52 55-2222-3333
+            </p>
+            <p> Horarios de atención </p>
+            <p>Lunes, Miércoles y Viernes: de 9 AM a 6 PM</p>
+            <p>Martes y Jueves: de 8 AM a 3 PM</p>
+        </footer>
+    </body>
+
+</html>

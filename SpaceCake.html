@@ -1,0 +1,147 @@
+
+<!Doctype html>
+
+<html lang="en">
+
+    <head>
+        <meta charset ="UTF-8">
+        <meta http-equiv="X-UA-Compatible" Content="IE=OperaGX">
+        <meta name="Viewport"
+        content="width=device-width, initial-scale=1.0">
+        <title> SpaceCake Client </title>
+    </head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: rgba(14, 81, 224, 0.678);
+            text-align: justify;
+        }
+        header {
+            background-color: rgba(2, 16, 46, 0.911);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+    </style>
+
+        <header> <h1>¡Bienvenido a Space Cake, el universo en cada mordisco!</h1> </header>
+        <body>
+            <br>
+            <img src="C:\Users\andyd\OneDrive\Escritorio\LAUNCHX\PRÁCTICAS UXUI - FRONTEND\Practica_Pastelería\SpaceCake.png" alt="Logo de Space Cake" width="200" height="200">
+            <br>
+            <p>¡Felicidades Explorer! estás en Space Cake, aqui yacen los mejores pasteles de la galaxia.</p>
+            <p>¡Ponte cómodo y elige tu equipamiento para el despegue a un nuevo universo de sabores!</p>
+            <br>
+            <h2>Sabores y rellenos de pastel</h2>
+            <di>
+                <dt>- Pastel Venuciano.......... $80</dt>
+                <dd>Pastel de 3 leches con sabor limón y relleno de uva verde</dd>
+                <dt>- Pastel Terrestre............. $80</dt>
+                <dd>Pastel de 3 leches sabor chocolate con relleno de queso crema</dd>
+                <dt>- Pastel Marciano............ $70</dt>
+                <dd>Pastel de 1 leche sabor frutos rojos y relleno de fresa</dd>
+                <dt>- Pastel Júpiter................. $90</dt>
+                <dd>Pastel de 2 leches sabor nuez con relleno de crema pastelera y almendras</dd>
+            </di>
+            <h2>Adornos para pastel</h2>
+            <table>
+                <tr>
+                    <th>Conjunto de Adornos</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                </tr>
+                <tr>
+                    <td> <img src="C:\Users\andyd\OneDrive\Escritorio\LAUNCHX\PRÁCTICAS UXUI - FRONTEND\Practica_Pastelería\Viaje Sencillo.jpg" alt="Cohete espacial y astronautas" width="150" height="150"> </td>
+                    <td> <p>Conjunto de adornos de temática espacial, sin vela hechos con foami</p> </td>
+                    <td>$50</td>
+                </tr>
+                <tr>
+                    <td> <img src="C:\Users\andyd\OneDrive\Escritorio\LAUNCHX\PRÁCTICAS UXUI - FRONTEND\Practica_Pastelería\Mongus.jpg" alt="Personajes del videojuego Among Us" width="150" height="150"> </td>
+                    <td> <p>Conjunto de adornos de temática del videojuego Among Us, figuras hechas de pan</p></td>
+                    <td>$150</td>
+                </tr>
+                <tr>
+                    <td> <img src="C:\Users\andyd\OneDrive\Escritorio\LAUNCHX\PRÁCTICAS UXUI - FRONTEND\Practica_Pastelería\circus.jpg" alt="Animales de circo" width="150" height="150"> </td>
+                    <td> <p>Conjunto de adornos de temática de animales de circo, figuras hechas de foami</p></td>
+                    <td>$75</td>
+                </tr>
+                <tr>
+                    <td> <img src="C:\Users\andyd\OneDrive\Escritorio\LAUNCHX\PRÁCTICAS UXUI - FRONTEND\Practica_Pastelería\numero sencillo.jpg" alt="Número de dos cifras sencillo" widht="150" height="150"></td>
+                    <td> <p>Adorno de número sencillo hecho con foami</p></td>
+                    <td>$40</td>
+                </tr>
+            </table>
+            <br>
+
+            <h1>¡Realiza tu pedido!</h1>
+            <h2>Llenado del formulario para el cliente</h2>
+            
+            <label for="Nombre">¿Cuál es tu nombre?</label><br>
+            <input type="text" id="Nombre" value="" maxlength="15">
+            <br><br>
+            <label for="Dirección">¿Cuál es la dirección donde enviaremos el pastel?</label> <br>
+            <input type="text" id="Dirección" value="" maxlength="30">
+            <br><br>
+            <label for="Teléfono">Ingresa tu número de teléfono</label><br>
+            <input type="tel" id="Phone" value="" minlength="10" maxlength="13">
+            <br><br>
+            <label for="Correo">Ingresa una dirección de correo</label><br>
+            <input type="email" id="Correo" value="">
+            <br><br>
+            <p>Realiza tus elecciones</p>
+            <table>
+                <tr>
+                    <th>Tipo de Pastel</th>
+                    <th>Conjunto de Adornos</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" id="Pastel Venuciano" name="Pastel" value="Pastel Venuciano">
+                        <label for="Pastel Venuciano">Pastel Venuciano</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="Viaje sencillo" name="Adorno" value="Viaje sencillo">
+                        <label for="Viaje Sencillo">Viaje sencillo</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" id="Pastel Terrestre" name="Pastel" value="Pastel Terrestre">
+                        <label for="Pastel Terrestre">Pastel Terrestre</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="Amongus" name="Adorno" value="Among us">
+                        <label for="Amongus">Temática Among Us</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" id="Pastel Marciano" name="Pastel" value="Pastel Marciano">
+                        <label for="Pastel Marciano">Pastel Marciano</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="Circus" name="Adorno" value="Circus">
+                        <label for="Circus">Temática de animales de circo</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" id="Pastel Júpiter" name="Pastel" value="Pastel Júpiter">
+                        <label for="Pastel Júpiter">Pastel Júpiter</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="NSencillo" name="Adorno" value="Número Sencillo">
+                        <label for="NSencillo">Número sencillo</label>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <label for="Descripción">En caso de necesitar un pedido diferente, ingresa una breve descripción aquí abajo</label><br>
+            <input id="Descripción" name="Descripción" type="text" maxlength="100"><br><br>
+            <br>
+            <input type="button" name="Enviar" id="Enviar" value="Enviar">
+        </body>
+</html>

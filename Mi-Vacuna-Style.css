@@ -1,0 +1,325 @@
+*{
+    border-collapse: separate;
+}
+li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    padding-inline-end: 10px;
+}
+button{
+    width: max-content;
+    height: 25px;
+    background-color: rgb(0, 89, 255);
+    font-size: large;
+    color: #fff;
+    font-style: bold;
+    border-radius: 3%;
+    border:none;
+}
+.Título1{
+    height: fit-content;
+    width: fit-content;
+    color: rgb(0, 89, 255);
+    font-style: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    position:absolute;
+    top: 3%;
+    left: 3%;
+}
+.Hnav{
+    height: fit-content;
+    width: fit-content;
+    color: rgb(133, 133, 133);
+    font-size: large;
+    font-style: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    display: inline-flex;
+    float: right;
+    text-align: right;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+.bienvenida{
+    font-size: xx-large;
+    font-style: bold;
+    color:rgb(0, 89, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    margin-top:200px;
+    padding-left: 50px;
+    height: fit-content;
+    width: fit-content;
+}
+.P1V{
+    height: fit-content;
+    width: fit-content;
+    padding-left: 50px;
+    color: rgb(133, 133, 133);
+    font-size: X-Large;
+    font-style: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    float: left;
+
+}
+.ENF{
+    float: right;
+    position: absolute;
+    top: 0px;
+    inset:initial;
+}
+.Enfermera{
+    height: 300px;
+    width: 500px;
+    float: right;
+    border-radius: 2%;
+    padding-right: 10px;
+    margin-right: 2em;
+}
+.H2F{
+    margin-top: 5em;
+    position: absolute;
+    font-size: larger;
+    color: rgb(0, 89, 255);
+    font-style: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    padding-left: 35px;
+}
+.Formulario{
+    margin-top: 100px;
+    border-collapse: collapse;
+    width: fit-content;
+    display: inline-flex;
+    padding-left: 50px;
+    padding-inline-start: 10px;
+    font-size: large;
+    font-style: bold;
+    background-color: rgba(255, 255, 255, 0.466);
+    color: rgb(45, 100, 250);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 70px;
+    padding-top: 40px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px rgba(9, 82, 179,0.4);
+}
+.box{
+    height: 100px;
+    margin-top: 5em;
+    width: 1300px;
+}
+.bienvenida2{
+    font-size: xx-large;
+    font-style: bold;
+    color:rgb(0, 89, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    padding-top:3em;
+    padding-left: 50px;
+    height: fit-content;
+    width: fit-content;
+}
+.P2V{
+    height: fit-content;
+    width: fit-content;
+    padding-left: 50px;
+    color: rgb(133, 133, 133);
+    font-size: X-Large;
+    font-style: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    float: left;
+}
+.container{
+    width: 100%;
+    display:flex;
+    max-width: 1100px;
+}
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px rgba(9, 82, 179, 0);
+    transition: all 1s ease;
+    margin-left: 60px;
+}
+.card:hover{
+    box-shadow:  5px 5px 20px rgba(9, 83, 179, 0.4);
+    transform:translateY(-3%);
+}
+.card img{
+    width: 30px;
+    height: 30px;
+    image-resolution: 1080px;
+}
+.card .contenido{
+   text-align: center;
+   padding: 10px;
+}
+.card .contenido p{
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(133, 133, 133);
+    font-style: bold;
+    text-align: left;
+}
+.card .contenido h3{
+    font-size: large;
+    color: rgb(0, 89, 255);
+    font-style: bold;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div div.dropdown-content{
+    position: absolute;
+    right: 300px;
+
+}
+.dropdown-content h3{
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 89, 255);
+    font-style: bold;
+
+}
+.dropdown-content ul{
+    list-style: none;
+    font-size: medium;
+    max-height: 0px;
+    overflow: hidden;
+    font-style: bold;
+    color: rgb(133, 133, 133);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all 1s ease-in;
+    width: 300px;
+    box-shadow:  5px 5px 20px rgba(9, 83, 179, 0.4);
+    border-radius: 5px;
+    text-align: left;
+    margin-top: 0px;
+   
+}
+.dropdown-content:hover ul{
+    max-height: 60px;
+}
+.Contacto-emergencia{
+    font-size: xx-large;
+    font-style: bold;
+    color:rgb(0, 89, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    margin-top:17em;
+    padding-left: 50px;
+    height: fit-content;
+    width: fit-content;
+}
+.P3V{
+    height: fit-content;
+    width: fit-content;
+    padding-left: 80px;
+    color: rgb(133, 133, 133);
+    font-size: large;
+    font-style: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+}
+.containerIX{
+    width: 100%;
+    display:flex;
+    max-width: 1100px;
+}
+.cardIX{
+    width: 220px;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px rgba(9, 82, 179, 0);
+    transition: all 1s ease;
+    margin-left: 60px;
+}
+.cardIX:hover{
+    box-shadow:  5px 5px 20px rgba(9, 83, 179, 0.4);
+    transform:translateY(-3%);
+}
+.cardIX img{
+    width: 30px;
+    height: 30px;
+    image-resolution: 1080px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.cardIX .contenidoIX{
+   text-align: center;
+   padding: 10px;
+}
+.cardIX .contenidoIX p{
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(133, 133, 133);
+    font-style: bold;
+    text-align: center;
+}
+.cardIX .contenidoIX h3{
+    font-size: large;
+    color: rgb(0, 89, 255);
+    font-style: bold;
+    text-align: center ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+figure.enfermeros{
+    float: right;
+    position: absolute;
+    margin-right: 50px;
+    right: 20px;
+    margin-top: 700px;
+}
+figure.enfermeros img{
+    height: 500px;
+    width: 600px;
+    border-radius: 10px;
+}
+footer{
+    margin-top: 5em;
+}
+.f1{ 
+    position: absolute;
+    left: 50px;
+}
+.f1 h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 89, 255);
+    font-style: bold;
+    font-size: larger;
+}
+.f1 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(133, 133, 133);
+    font-style: bold;   
+}
+.f2{
+    position: absolute;
+    right: 30px;
+}
+.f2 ul{
+    list-style: none;
+}
+.f2 ul li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(133, 133, 133);
+    font-style: bold;
+}
+.f2 th{
+    font-size: larger;
+    color: rgb(0, 89, 255);
+    font-style: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.foo{
+    background-color: rgba(9, 82, 179,0.4);
+}
